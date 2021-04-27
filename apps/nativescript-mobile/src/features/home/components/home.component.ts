@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { setStatusBarColor } from '../../../utils';
+import * as app from 'tns-core-modules/application';
 
 @Component({
   moduleId: module.id,
